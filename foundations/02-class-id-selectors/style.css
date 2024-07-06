@@ -1,0 +1,19 @@
+.odd {
+    color: black;
+    background-color: red;
+    font-family: cursive;
+}
+
+.adjust-font-size {
+    font-size: 30px;
+}
+
+#two {
+    color: rgb(255, 240, 244);
+    font-size: 36px;
+}
+
+#four {
+    background-color: white;
+    font-weight: bold;
+}
