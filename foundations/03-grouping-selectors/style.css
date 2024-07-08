@@ -1,0 +1,18 @@
+.button1, .button2 {
+    font-size: 28;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: yellow;
+    color: black;
+
+}
+
