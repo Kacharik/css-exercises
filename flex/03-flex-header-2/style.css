@@ -11,7 +11,11 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure items are centered vertically */
+  padding: 8px 16px; /* Adjust padding as needed */
 }
 
 .profile-image {
@@ -45,4 +49,23 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Additional styles for responsiveness */
+.left {
+  flex-shrink: 1; /* Allow it to shrink if needed */
+}
+
+.right {
+  flex-shrink: 0; /* Prevent it from shrinking */
 }
